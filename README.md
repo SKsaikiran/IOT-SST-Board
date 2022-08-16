@@ -122,12 +122,10 @@
    
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_MIT_APP/FIREBASE_MIT_APP.ino) 
    
-   ---------------
+  ---------------
    
-   |**External Drivers**| **Links** |
+  |**External Drivers**| **Links** |
 |:-------:|:-------: |
-|CP210x Driver | [Click Here](CP210x_Windows_Drivers.zip)|
-|CH340 Driver (Windows) | [Click Here](CH341SER.zip)|
-|CH340 Driver (Mac) | [Click Here](CH341SER-MAC.zip)|
+|CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 ----------------
