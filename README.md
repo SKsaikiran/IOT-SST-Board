@@ -85,42 +85,42 @@
    -------
    
  ### 9. Program for DHT11 Sensor using Blynk Server
-   [Click Here For Setup Guide](Blynk_DHT.md)
+   [Click Here For Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/BLYNK_DHT_GUIDE.md)
    
-   [Source Code](9_Blynk_DHT/Blynk_DHT.ino)
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT_BLYNK/DHT_BLYNK.ino)
    
    ------
    
   ### 10. Program for DHT11 Sensor using Serial Monitor
   
-   [Source Code](10_DHT11_Serial/10_DHT11_Serial.ino)   
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT11_SERIAL/DHT11_SERIAL.ino)   
    
    ------
    
   ### 11. Program for DHT11 and LED Using Firebase
-   [Click Here For Setup Guide](FireBase_Setup.md)
+   [Click Here For Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_SETUP_GUIDE.md)
   
-   [Source Code](12_Firebase_DHT/11_Firebase_DHT.ino)
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT_FIREBASE/DHT_FIREBASE.ino)
    
    -------
    
   ### 12. Program for User 1
   
-   [Source Code](11_Firebase_User1/firebase_chat.ino) 
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_CHAT/FIREBASE_CHAT.ino) 
    
    ------
    
  ### 13. Program for User 2
  
-   [Source Code](13_Firebase_User2/firebase_chat_user_2.ino)
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_CHAT_2/FIREBASE_CHAT_2.ino)
    
    -----------
    
  ### 14. Firebase IoT MIT App
  
-   [Click Here For Setup Guide](Mit_App_Inventor.md) 
+   [Click Here For Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/MIT_APP_GUIDE.md) 
    
-   [Source Code](14_Firebase_IoT_MIT_App/firebase.ino) 
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_MIT_APP/FIREBASE_MIT_APP.ino) 
    
    ---------------
    
@@ -131,6 +131,3 @@
 |CH340 Driver (Mac) | [Click Here](CH341SER-MAC.zip)|
 
 ----------------
-   
-   <h3 align = "center">Don't forget to ⭐ this Repo <h3>
-  
