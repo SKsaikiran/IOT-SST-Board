@@ -1,5 +1,5 @@
 /*************************************************************
-SMART IRRIGATION
+SMART DRIP IRRIGATION
  *************************************************************/
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 #define BLYNK_TEMPLATE_ID "  "//Template ID
@@ -24,7 +24,8 @@ BLYNK_CONNECTED()
   Blynk.setProperty(V3, "onImageUrl",  "https://static-image.nyc3.cdn.digitaloceanspaces.com/general/fte/congratulations_pressed.png");
   Blynk.setProperty(V3, "url", "https://docs.blynk.io/en/getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made");
 }
-void moisture() {
+void moisture() 
+{
   int value = analogRead(A0);
   value = map(value, 0, 1023, 0, 100);
   Serial.println(value);
