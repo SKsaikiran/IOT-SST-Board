@@ -123,6 +123,11 @@
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_MIT_APP/FIREBASE_MIT_APP.ino) 
    
   ---------------
+  
+### 15. Smart drip irrigation sysmtem
+   
+   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/0ec52efe3237a27ff59fa6c78b6e42a8ab3859bd/SMART_DRIP_IRRIGATION/SMART_DRIP_IRRIGATION.ino) 
+   
    
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
