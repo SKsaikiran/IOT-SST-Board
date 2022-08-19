@@ -1,7 +1,7 @@
 /*************************************************************
 SMART DRIP IRRIGATION
  *************************************************************/
-// Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
+// Template ID, Device Name and Auth Token are provided by the Blynk.Cloud.
 #define BLYNK_TEMPLATE_ID "  "//Template ID
 #define BLYNK_DEVICE_NAME " "//Device name
 #define BLYNK_AUTH_TOKEN " "//Auth token
@@ -16,7 +16,7 @@ char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = " ";//WIFI ID(case sensitive)
 char pass[] = " ";//WIFI PASSWORD(case sensitive)
 BlynkTimer timer;
-// This function is called every time the device is connected to the Blynk.Cloud
+// This function is called every time the device is connected to the Blynk.Cloud.
 BLYNK_CONNECTED()
 {
   // Change Web Link Button message to "Congratulations!"
@@ -26,7 +26,7 @@ BLYNK_CONNECTED()
 }
 void moisture() 
 {
-  int value = analogRead(A0);
+  int value = analogRead(A0);//reading soil moisture sensor value.
   value = map(value, 0, 1023, 0, 100);
   Serial.println(value);
 }
@@ -43,7 +43,7 @@ void loop()
   Serial.print("Soil Moisture(in Percentage) = ");
   Serial.print(moisture_percentage);
   Serial.println("%");
-  if(moisture_percentage<=30)
+  if(moisture_percentage < 30)
   {
     Serial.println("ON");
     digitalWrite(Motor,HIGH);
