@@ -6,9 +6,9 @@ SMART IRRIGATION
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
-#define BLYNK_TEMPLATE_ID " "
-#define BLYNK_DEVICE_NAME " "
-#define BLYNK_AUTH_TOKEN " "
+#define BLYNK_TEMPLATE_ID " "//Template ID
+#define BLYNK_DEVICE_NAME " "//Device name
+#define BLYNK_AUTH_TOKEN " "//Auth token
 #define BLYNK_PRINT Serial
 #define BLYNK_PRINT Serial
 #define Motor D3
