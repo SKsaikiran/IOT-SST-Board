@@ -135,7 +135,14 @@
    
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/0ec52efe3237a27ff59fa6c78b6e42a8ab3859bd/SMART_DRIP_IRRIGATION/SMART_DRIP_IRRIGATION.ino) 
    
+     ---------------
+  
+### 16. Smart irrigation sysmtem
    
+   [Source Code]( https://github.com/SKsaikiran/IOT-SST-Board/blob/55f95f7c66a8cc678735a8642f177f12f15b2f53/SMART_IRRIGATION/SMART_IRRIGATION.ino) 
+   
+     ---------------
+     
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
 |CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
