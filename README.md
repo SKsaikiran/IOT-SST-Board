@@ -102,7 +102,7 @@
   
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT11_SERIAL/DHT11_SERIAL.ino)   
    
-   ------
+   -------
    
   ### 11. Program for DHT11 and LED Using Firebase
    [Click Here For Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_SETUP_GUIDE.md)
@@ -121,28 +121,27 @@
  
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_CHAT_2/FIREBASE_CHAT_2.ino)
    
-   -----------
-   
+   -------
  ### 14. Firebase IoT MIT App
  
    [Click Here For Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/MIT_APP_GUIDE.md) 
    
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/FIREBASE_MIT_APP/FIREBASE_MIT_APP.ino) 
    
-  ---------------
+  -------
   
 ### 15. Smart drip irrigation sysmtem
    
    [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/0ec52efe3237a27ff59fa6c78b6e42a8ab3859bd/SMART_DRIP_IRRIGATION/SMART_DRIP_IRRIGATION.ino) 
-   
-     ---------------
+ 
+   -------
   
 ### 16. Smart irrigation sysmtem
    
    [Source Code]( https://github.com/SKsaikiran/IOT-SST-Board/blob/55f95f7c66a8cc678735a8642f177f12f15b2f53/SMART_IRRIGATION/SMART_IRRIGATION.ino) 
    
-     ---------------
-     
+   -------
+   
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
 |CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
