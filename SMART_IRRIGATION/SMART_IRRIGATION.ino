@@ -1,6 +1,6 @@
-/*************************************************************
+/************************************
 SMART IRRIGATION
- *************************************************************/
+ ************************************/
  // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
  // See the Device Info tab, or Template settings
 #include <Adafruit_Sensor.h>
