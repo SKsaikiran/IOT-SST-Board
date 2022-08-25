@@ -1,29 +1,34 @@
 # IOT-SST-Board
 
-### Arduino IDE
-   [Click Here](https://drive.google.com/drive/folders/1H14DQ2ko-v9bQKvVj3KGK7GOz79M1Zd5?usp=sharing)
+| **Arduino IDE** |
+|:----------|
+  | [Click Here](https://drive.google.com/drive/folders/1H14DQ2ko-v9bQKvVj3KGK7GOz79M1Zd5?usp=sharing)|
    
    ------
    
-### Arduino IDE Installation Guide
-   [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/Arduino_Installation_guide.md)
+| **Arduino IDE Installation Guide** |
+|:----------|
+   |[Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/Arduino_Installation_guide.md)|
    
    ------
   
-### Blynk Account Setup Guide
-   [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLYNK_SETUP_GUIDE.md)
+| **Blynk Account Setup Guide**|
+|:----------|
+  | [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLYNK_SETUP_GUIDE.md)|
    
    -------
    
    
-   ### ESP8266 Setup Guide
-   [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/23ee10d4a2e4c78d20d5fd45635b10110f319063/ESP8266_libray_Installation_Guide.md)
+   | **ESP8266 Setup Guide** |
+   |:----------|
+   |[Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/23ee10d4a2e4c78d20d5fd45635b10110f319063/ESP8266_libray_Installation_Guide.md)|
    
    -------
 
 
-### Libraries Riquired 
-   [Click Here](LIBRARIES)
+|**Libraries Riquired** |
+|:----------|
+  | [Click Here](LIBRARIES)|
    
    --------
    ## SST IoT Board Pin Description
