@@ -59,33 +59,33 @@
    
    -----
    
- ### 3.Program for RGB LED Common Cathode
- 
-   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLINK_RGB_LED/BLINK_RGB_LED.ino)
+ | **3.Program for RGB LED Common Cathode** |
+  |:----------|
+   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLINK_RGB_LED/BLINK_RGB_LED.ino)|
    
    ------
    
- ### 4.Program for Buzzer
- 
-   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BUZZER/BLINK_RGB_LED.ino)
+ | **4.Program for Buzzer** |
+  |:----------|
+   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BUZZER/BLINK_RGB_LED.ino)|
    
    -------
    
- ### 5. Program for Toggle Switch
-   
-   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/PUSH_BUTTON_BUZZER/PUSH_BUTTON_BUZZER.ino)
+  |**5. Program for Toggle Switch**|
+   |:----------|
+   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/PUSH_BUTTON_BUZZER/PUSH_BUTTON_BUZZER.ino)|
    
    ------
 
-### 6. Program for LDR Interface
-  
-   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/LDR_LED/LDR_LED.ino)
+| **6. Program for LDR Interface** |
+   |:----------|
+  | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/LDR_LED/LDR_LED.ino)|
    
    -------
    
-### 7.Program for Bluetooth Interface
-
-   [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLUETOOTH_LED/BLUETOOTH_LED.ino)  
+| **7.Program for Bluetooth Interface** |
+ |:----------|
+  | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLUETOOTH_LED/BLUETOOTH_LED.ino)|  
    
    ------
    
