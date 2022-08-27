@@ -151,7 +151,3 @@
 |CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 ----------------
-   
-   <h3 align = "center">Thank you for visiting my repo <h3>
-  <h4 align = "center"> Don't forget to ⭐ this Repo <h4>
-   
