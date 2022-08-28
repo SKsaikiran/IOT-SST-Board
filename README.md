@@ -149,5 +149,3 @@
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
 |CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
-
-----------------
