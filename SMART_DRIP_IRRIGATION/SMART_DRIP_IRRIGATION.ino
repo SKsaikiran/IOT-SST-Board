@@ -17,13 +17,6 @@ char ssid[] = " ";//WIFI ID(case sensitive)
 char pass[] = " ";//WIFI PASSWORD(case sensitive)
 BlynkTimer timer;
 // This function is called every time the device is connected to the Blynk.Cloud.
-BLYNK_CONNECTED()
-{
-  // Change Web Link Button message to "Congratulations!"
-  Blynk.setProperty(V3, "offImageUrl", "https://static-image.nyc3.cdn.digitaloceanspaces.com/general/fte/congratulations.png");
-  Blynk.setProperty(V3, "onImageUrl",  "https://static-image.nyc3.cdn.digitaloceanspaces.com/general/fte/congratulations_pressed.png");
-  Blynk.setProperty(V3, "url", "https://docs.blynk.io/en/getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made");
-}
 void moisture() 
 {
   int value = analogRead(A0);//reading soil moisture sensor value.
@@ -43,7 +36,7 @@ void loop()
   Serial.print("Soil Moisture(in Percentage) = ");
   Serial.print(moisture_percentage);
   Serial.println("%");
-  if(moisture_percentage < 30)
+  if(moisture_percentage <= 30)
   {
     Serial.println("ON");
     digitalWrite(Motor,HIGH);
