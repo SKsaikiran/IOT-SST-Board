@@ -14,6 +14,7 @@ SMART IRRIGATION
 #define Motor D3
 #define DHTPIN D4
 #define Smoke D7
+#define Led D2
 #define DHTTYPE    DHT11
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -64,7 +65,6 @@ void moisture()
   pinMode(D6,OUTPUT);//Assigning D6 pin for Smoke Sensor Ground pin as output.
   pinMode(D7,OUTPUT);//Assigning D7 pin for Smoke sensor digitalpin as output.
   digitalWrite(D6,LOW);//D6 as Ground
-  digitalWrite(D7,HIGH);//D7 as high
   Serial.begin(9600);
   dht.begin();
   Blynk.begin(auth, ssid, pass);
