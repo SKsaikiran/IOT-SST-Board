@@ -73,7 +73,7 @@ void moisture()
 void loop()
 {
    float moisture_percentage;
-   int Smoke= analogRead(D7);//reading somke sensor value
+   int Smoke= digitalRead(D7);//reading somke sensor value
   moisture_percentage =  ( 100.00 - ( (analogRead(A0)/1024.00)*100));
   Serial.print("Soil Moisture(in Percentage) = ");
   Serial.print(moisture_percentage);
