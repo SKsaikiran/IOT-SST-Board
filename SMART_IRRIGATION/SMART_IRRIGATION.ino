@@ -1,6 +1,6 @@
-/************************************
+/**************************************
 SMART IRRIGATION
- ************************************/
+ **************************************/
  // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
  // See the Device Info tab, or Template settings
 #include <Adafruit_Sensor.h>
@@ -102,6 +102,7 @@ Serial.print("smoke value = ");
   {
   digitalWrite(Led,HIGH);
   Serial.println("Led is ON");
+   delay(1000);
   }
   delay(500);
   Blynk.virtualWrite(V0,moisture_percentage);
