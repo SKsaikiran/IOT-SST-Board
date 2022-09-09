@@ -1,10 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 #include <addons/TokenHelper.h>
-
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "Redmi"
-#define WIFI_PASSWORD "ZXCV@098"
+#define WIFI_SSID " "
+#define WIFI_PASSWORD " "
 
 //For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
