@@ -80,7 +80,7 @@
 | **6. Program for LDR Interface** |
    |:----------|
   | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/LDR_LED/LDR_LED.ino)|
-  | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/211f8c3d8b47c06a2e1a8a1b1b5be4fff9f0d63a/Procedure/LDR_interface.md) |
+  | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/75f742444e9b3a98be631097be7362cff970ed8e/Procedure/LDR_LED.md) |
    
    -------
    
