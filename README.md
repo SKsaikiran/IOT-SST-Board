@@ -88,6 +88,7 @@
  |:----------|
   | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/BLUETOOTH_LED/BLUETOOTH_LED.ino)|  
   | [Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/8fdf018e7c50002740b668aba32802852bdfd9c5/BLUETOOTH_LED/BLUETOOTH_Setup_Guide.md) |
+  | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/6de9d43702621c45bbab628310c9607c552c5dda/Procedure/BLUETOOTH_LED.md) |
    
    ------
    
