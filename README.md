@@ -103,12 +103,14 @@
   |:----------|
   |[Click Here For Setup Guide](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/BLYNK_DHT_GUIDE.md)|
   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT_BLYNK/DHT_BLYNK.ino)|
+  |[Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/c12f145cda293a6146450ed0be8ce49b7cc99a8a/Procedure/DHT11_SERIAL.md) |
    
    ------
    
    | **10. Program for DHT11 Sensor using Serial Monitor** |
    |:----------|
-   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT11_SERIAL/DHT11_SERIAL.ino)|   
+   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/d548366a9fcfe2b1c9c658f2158aca2afb242f83/DHT11_SERIAL/DHT11_SERIAL.ino)|
+   |[Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/c12f145cda293a6146450ed0be8ce49b7cc99a8a/Procedure/DHT11_SERIAL.md)|
    
    -------
    
