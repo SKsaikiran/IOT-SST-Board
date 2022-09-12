@@ -74,6 +74,7 @@
   |**5. Program for Toggle Switch**|
    |:----------|
    |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/9b7bc5438e7851bcd51d2b2828cc90fa05f2b6bd/PUSH_BUTTON_BUZZER/PUSH_BUTTON_BUZZER.ino)|
+   | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/33e4c910b91ae513fcaddd2a72a800555e5d48fe/Procedure/TOGGLE_SWITCH.md) |
    
    ------
 
