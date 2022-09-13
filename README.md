@@ -44,6 +44,7 @@
 |Bluetooth| RX-14, TX-12 |
 |DHT 11| 2 |
 | RELAY | 13 |
+| OLED | 4,5 |
 
 --------------------
 
@@ -152,10 +153,11 @@
    
    -------
    
-| **16. OLED** |
+| **17. OLED** |
 |:----------|
 | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/1c1c65c9df04d564c0739c7b699a7a68d888d5bd/OLED/OLED.ino) |
  | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/42aa21393db86c628aa378477d289b63ae768831/Procedure/OLED.md) |
+ | Libraries Required : U8g2 |
   -------
 
   |**External Drivers**| **Links** |
