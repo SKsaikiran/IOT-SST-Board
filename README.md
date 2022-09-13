@@ -155,7 +155,7 @@
 | **16. OLED** |
 |:----------|
 | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/1c1c65c9df04d564c0739c7b699a7a68d888d5bd/OLED/OLED.ino) |
- |[Procedure]()|
+ | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/42aa21393db86c628aa378477d289b63ae768831/Procedure/OLED.md) |
   -------
 
   |**External Drivers**| **Links** |
