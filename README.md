@@ -158,8 +158,18 @@
 | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/1c1c65c9df04d564c0739c7b699a7a68d888d5bd/OLED/OLED.ino) |
  | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/42aa21393db86c628aa378477d289b63ae768831/Procedure/OLED.md) |
  | Libraries Required : U8g2 |
+  
   -------
 
+   
+| **17. LCD** |
+|:----------|
+| [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/5a505d3fae440c90c1f23e18283111dcff950596/LCD/LCD.ino) |
+ | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/5a505d3fae440c90c1f23e18283111dcff950596/Procedure/LCD.md) |
+ | Libraries Required : LiquidCrystal I2C |
+  
+  -------
+  
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
 |CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
