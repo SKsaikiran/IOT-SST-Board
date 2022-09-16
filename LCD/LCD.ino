@@ -1,6 +1,6 @@
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
-  // set the LCD number of columns and rows
+// set the LCD number of columns and rows
 int lcdColumns = 16;
 int lcdRows = 2;
 // set LCD address, number of columns and rows
