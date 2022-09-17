@@ -2,7 +2,8 @@
 - Visit [Software | Arduino](https://www.arduino.cc/en/software) and download the latest Arduino IDE suitable for your Operating System(OS).
 ![Arduino_IDE_Download.png](https://raw.githubusercontent.com/SinkuKumar/Blynk_Firebase/main/Assets/Arduino_IDE_Download.png "Arduino_IDE_Download")
 
-- __Note:__ Avoid Installing Experimental Software i.e. Arduino IDE 2.0 beta.
+
+__Note:__ Avoid Installing Experimental Software i.e. Arduino IDE 2.0 beta.
 
 - Locate setup file and Install Arduino IDE
 ![Arduino_IDE_Setup](https://raw.githubusercontent.com/SinkuKumar/Blynk_Firebase/main/Assets/Arduino_IDE_Setup.png "Arduino_IDE_Setup")
