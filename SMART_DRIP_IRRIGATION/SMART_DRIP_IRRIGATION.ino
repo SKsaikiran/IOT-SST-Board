@@ -7,7 +7,7 @@ SMART DRIP IRRIGATION
 #define BLYNK_AUTH_TOKEN " "//Auth token
 #define BLYNK_PRINT Serial
 #define BLYNK_PRINT Serial
-#define Motor D2
+#define Motor D2 //Motor pin assigned to GPIO D2
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 char auth[] = BLYNK_AUTH_TOKEN;
@@ -36,16 +36,16 @@ void loop()
   Serial.print("Soil Moisture(in Percentage) = ");
   Serial.print(moisture_percentage);
   Serial.println("%");
-  if(moisture_percentage <= 30)
+  if(moisture_percentage<=30)
   {
     Serial.println("ON");
     digitalWrite(Motor,HIGH);
   }
  else
-{
+ {
   Serial.println("OFF");
   digitalWrite(Motor,LOW);
-}
+ }
   Blynk.virtualWrite(V0,moisture_percentage);
   delay(1000);  
   Blynk.run();
