@@ -167,7 +167,7 @@
 |:----------|
 | [Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/5a505d3fae440c90c1f23e18283111dcff950596/LCD/LCD.ino) |
  | [Procedure](https://github.com/SKsaikiran/IOT-SST-Board/blob/5a505d3fae440c90c1f23e18283111dcff950596/Procedure/LCD.md) |
- | Libraries Required : LiquidCrystal I2C |
+ | Libraries Required : [LiquidCrystal I2C](https://drive.google.com/file/d/1HvLhhUfPdMpollQjFgATW0Y9pEnIQhQr/view?usp=sharing) |
   
   -------
   
