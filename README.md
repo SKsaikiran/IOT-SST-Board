@@ -173,4 +173,5 @@
   
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
-|CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+|CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) |
+|CH340 Driver (Windows) | [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/6ab259a4e70946d02bcb64946a47d8d19eb3e2ab/LIBRARIES/CH341SER.zip)|
