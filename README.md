@@ -174,5 +174,5 @@
   |**External Drivers**| **Links** |
 |:-------:|:-------: |
 |CP210x Driver | [Click Here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) |
-|CH340 Driver (Windows) | [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/6ab259a4e70946d02bcb64946a47d8d19eb3e2ab/LIBRARIES/CH341SER.zip)|
-| CH340 Driver (Mac) | [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/bdfadddcb20787d19590cf1e89b032b93ed82807/LIBRARIES/CH341SER-MAC.zip)|
+|CH340 Driver (Windows) | [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/4c64907b56790965c95db379270a0ab4e6652cf0/Drivers/CH341SER.zip)|
+| CH340 Driver (Mac) | [Click Here](https://github.com/SKsaikiran/IOT-SST-Board/blob/4c64907b56790965c95db379270a0ab4e6652cf0/Drivers/CH341SER-MAC.zip)|
