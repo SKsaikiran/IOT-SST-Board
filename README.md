@@ -145,12 +145,13 @@
 | **15. Smart drip irrigation sysmtem** |
 |:----------|
 |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/0ec52efe3237a27ff59fa6c78b6e42a8ab3859bd/SMART_DRIP_IRRIGATION/SMART_DRIP_IRRIGATION.ino)| 
- 
+| [About](https://github.com/SKsaikiran/IOT-SST-Board/blob/0214771c335627eeb5d4ff20b35e9d86cafdb062/SMART_DRIP_IRRIGATION/About.md)|
    -------
   
 | **16. Smart irrigation sysmtem** |
 |:----------|
 |[Source Code]( https://github.com/SKsaikiran/IOT-SST-Board/blob/55f95f7c66a8cc678735a8642f177f12f15b2f53/SMART_IRRIGATION/SMART_IRRIGATION.ino)|
+| [About](https://github.com/SKsaikiran/IOT-SST-Board/blob/6175fdbdd2603d408763381be29605561af6d104/SMART_IRRIGATION/About.md)|
    
    -------
    
