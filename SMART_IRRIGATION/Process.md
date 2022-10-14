@@ -1,5 +1,0 @@
-### SMART IRRIGATION
--------
-
-
-
