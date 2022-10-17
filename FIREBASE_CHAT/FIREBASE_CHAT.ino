@@ -68,7 +68,6 @@ void loop()
   {
     //Your text messages
     String user1Data = Serial.readString();
-    //Serial.printf("User 2 :  %s\n", Firebase.setString(fbdo, "/user2/data",user1Data) ? user1Data : fbdo.errorReason().c_str());
     Firebase.setString(fbdo, "/user2/data",user1Data);
     Serial.print("User 2 :");
     Serial.println(user1Data);
