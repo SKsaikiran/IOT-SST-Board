@@ -17,7 +17,6 @@
 #define USER_EMAIL "  "//XYX@GAMIL.COM
 #define USER_PASSWORD " "//Password12
 
-
 //Define Firebase Data object
 FirebaseData fbdo;
 
