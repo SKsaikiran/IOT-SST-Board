@@ -1,7 +1,6 @@
 # Firebase setup Guide
 
 ## [Click Here](https://firebase.google.com/) to go to Google Firebase 
-
 ### Click On Go to console
 ![Screenshot 2022-02-09 at 11 43 44 AM](https://user-images.githubusercontent.com/65058286/153133680-98c858ae-124c-4b14-abbd-78934bd4fd22.png)
 
