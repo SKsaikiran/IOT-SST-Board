@@ -60,7 +60,7 @@
    |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/1a4c84ff943037a1f4223a7699b429bfc0fa7c43/LED/LED.ino)|
    
    -----
- | **3.Program for On Board LED for finiate state ** | 
+ | **3.Program for On Board LED for finiate state** | 
    |:----------|
    |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/585a9533a4e85f247efca5568de4ed34efd12ed2/BLINK_RGB_LED/Blink%20RGB%20finite%20steps) |
    
