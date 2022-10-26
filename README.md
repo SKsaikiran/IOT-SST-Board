@@ -66,7 +66,7 @@
    -----
  | **3.Program for On Board LED for finiate state** | 
    |:----------|
-   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/585a9533a4e85f247efca5568de4ed34efd12ed2/BLINK_RGB_LED/Blink%20RGB%20finite%20steps) |
+   |[Source Code](https://github.com/SKsaikiran/IOT-SST-Board/blob/e4e4e86063b98f07690bfa73ea95bca96ff54381/BLINK_RGB_LED/Blink_RGB_finite_times.io) |
    
   -----
  | **4.Program for RGB LED Common Cathode** |
