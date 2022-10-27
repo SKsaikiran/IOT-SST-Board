@@ -7,7 +7,6 @@ void setup()
   digitalWrite(4, LOW);
  Int count =0;
 }
-
 void loop() 
 { 
  If(count<=5) 
