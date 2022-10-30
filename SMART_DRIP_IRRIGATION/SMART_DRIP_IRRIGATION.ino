@@ -6,7 +6,6 @@ SMART DRIP IRRIGATION
 #define BLYNK_DEVICE_NAME " "//Device name
 #define BLYNK_AUTH_TOKEN " "//Auth token
 #define BLYNK_PRINT Serial
-#define BLYNK_PRINT Serial
 #define Motor D2 //Motor pin assigned to GPIO D2
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
