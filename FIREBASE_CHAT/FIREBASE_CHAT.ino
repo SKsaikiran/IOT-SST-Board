@@ -18,7 +18,6 @@
 #define USER_EMAIL "srinvasanm1207@gmail.com"
 #define USER_PASSWORD "password"
 
-
 //Define Firebase Data object
 FirebaseData fbdo;
 
@@ -29,7 +28,6 @@ unsigned long lastReadTime = 0;
 String prevData = "";
 void setup()
 {
-
   Serial.begin(115200);
 
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
