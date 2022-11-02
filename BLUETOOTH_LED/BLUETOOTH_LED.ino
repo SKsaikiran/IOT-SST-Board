@@ -9,7 +9,7 @@
     pinMode(2,OUTPUT);
   }
  void loop() 
- { // run over and over
+ { 
   char  val;
    if (mySerial.available()) 
     {
