@@ -159,6 +159,7 @@
 | **18. Smart irrigation sysmtem** |
 |:----------|
 |[Source Code]( https://github.com/SKsaikiran/IOT-SST-Board/blob/55f95f7c66a8cc678735a8642f177f12f15b2f53/SMART_IRRIGATION/SMART_IRRIGATION.ino)|
+|[Output](https://github.com/SKsaikiran/IOT-SST-Board/blob/272f3a0977c36bacdbd680537d1fcb1974c95e09/SMART_IRRIGATION/Output.md)|
 | [About](https://github.com/SKsaikiran/IOT-SST-Board/blob/6175fdbdd2603d408763381be29605561af6d104/SMART_IRRIGATION/About.md)|
    
    -------
