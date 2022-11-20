@@ -1,32 +1,27 @@
-/**************************************
-SMART IRRIGATION
- **************************************/
- // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
- // See the Device Info tab, or Template settings
+/*SMART IRRIGATION
+//*************************************************************
+Template ID, Device Name and Auth Token are provided by the Blynk.Cloud*/
+#define BLYNK_TEMPLATE_ID "TMPLizwS4P-e"
+#define BLYNK_DEVICE_NAME "Irrigation"
+#define BLYNK_AUTH_TOKEN "qQwotE7hsMvBilVCOYaKR6OEuQLtVJ0X"
+#define DHTPIN D4
+#define DHTTYPE DHT11
+#define BLYNK_PRINT Serial
+#define BLYNK_PRINT Serial
+#define Motor D2
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
-#define BLYNK_TEMPLATE_ID " "//Template ID
-#define BLYNK_DEVICE_NAME " "//Device name
-#define BLYNK_AUTH_TOKEN " "//Auth token
-#define BLYNK_PRINT Serial
-#define BLYNK_PRINT Serial
-#define Motor D3
-#define DHTPIN D4
-#define Smoke D7
-#define Led D2
-#define DHTTYPE    DHT11
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 char auth[] = BLYNK_AUTH_TOKEN;
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = " ";//WIFI ID(case sensitive)
-char pass[] = " ";//WIFI PASSWORD(case sensitive)
-const int Led = D3;//Assigning D3 pin for LED 
+char ssid[] = "wifi";
+char pass[] = "00000000";
 BlynkTimer timer;
-// This function is called every time the device is connected to the Blynk.Cloud
 DHT_Unified dht(DHTPIN, DHTTYPE);
+// This function is called every time the device is connected to the Blynk.Cloud
 BLYNK_CONNECTED()
 {
   // Change Web Link Button message to "Congratulations!"
@@ -34,8 +29,15 @@ BLYNK_CONNECTED()
   Blynk.setProperty(V3, "onImageUrl",  "https://static-image.nyc3.cdn.digitaloceanspaces.com/general/fte/congratulations_pressed.png");
   Blynk.setProperty(V3, "url", "https://docs.blynk.io/en/getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made");
 }
+void moisture() {
+  int value = analogRead(A0);
+  value = map(value, 0, 1023, 0, 100);
+  Serial.println(value);
+}
 void myTimerEvent()
 {
+  
+  //Write Code Here:
   sensors_event_t event;
   dht.temperature().getEvent(&event);
   Serial.print("Temperature: ");
@@ -45,7 +47,7 @@ void myTimerEvent()
   Serial.println("°C");
     
   dht.humidity().getEvent(&event);
-  Serial.print("Humidity: ");
+  Serial.print("Relative Humidity: ");
   float hum = float(event.relative_humidity);
   Serial.print(hum);
   Blynk.virtualWrite(V2, hum);
@@ -53,60 +55,34 @@ void myTimerEvent()
   Serial.println("\n-------------------------------");
  
 }
-void moisture() 
-{
-  int value = analogRead(A0);//reading soil moistor sensor value
-  value = map(value, 0, 1023, 0, 100);
-  Serial.println(value);
-}
   void setup() 
   {
-  pinMode(Motor,OUTPUT);//Assigning Motor pin D3 as output.
-  pinMode(D6,OUTPUT);//Assigning D6 pin for Smoke Sensor Ground pin as output.
-  pinMode(D7,OUTPUT);//Assigning D7 pin for Smoke sensor digitalpin as output.
-  digitalWrite(D6,LOW);//D6 as Ground
-  Serial.begin(9600);
+  pinMode(Motor,OUTPUT);
   dht.begin();
+  Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
   timer.setInterval(1000L, myTimerEvent);
   }
 void loop()
 {
    float moisture_percentage;
-   int Smoke= digitalRead(D7);//reading somke sensor value
   moisture_percentage =  ( 100.00 - ( (analogRead(A0)/1024.00)*100));
   Serial.print("Soil Moisture(in Percentage) = ");
   Serial.print(moisture_percentage);
   Serial.println("%");
-  if(moisture_percentage <= 30)
+  if(moisture_percentage<=30)
   {
-    Serial.println("MOTOR ON");
+    Serial.println("ON");
     digitalWrite(Motor,HIGH);
   }
  else
- {
-  Serial.println("MOTOR OFF");
+{
+  Serial.println("OFF");
   digitalWrite(Motor,LOW);
- }
-Serial.print("smoke value = ");
-  Serial.print(Smoke);
-  Serial.print(".");
-  Serial.println(" ");
-  if(Smoke > 190)
-  {
-    digitalWrite(Led,LOW);
-    Serial.println("Led is OFF");
-    delay(1000);
-  }
-  else
-  {
-  digitalWrite(Led,HIGH);
-  Serial.println("Led is ON");
-   delay(1000);
-  }
-  delay(500);
+}
   Blynk.virtualWrite(V0,moisture_percentage);
+  myTimerEvent();
   delay(1000);  
   Blynk.run();
   timer.run();  
-} 
+}
